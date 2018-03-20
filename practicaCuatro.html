@@ -1,0 +1,227 @@
+<!-- Este template utiliza bootstrap 4 -->
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" type="text/css" href="../css/styles.css"> -->
+  <title>FleetSAP</title>
+</head>
+
+<body>
+<!-- 
+
+
+  <ul class="nav bg-dark justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link text-white" href="../index.html">Start</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white" target="_blank" href="https://co.linkedin.com/in/luis-g-sandoval">LinkedIn</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white" target="_blank" href="https://www.luisgsandoval.com">WebSite</a>
+    </li>
+  </ul>
+
+
+  <!-- contenido -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+<!--         <span class="display-3">Alertas</span>
+        <br>
+        <br> -->
+        <div class="alert alert-primary alert-dismissible fade show d-none" role="alert" id="alert-primary" style="position: absolute;">
+          <strong>Edición Exitosa !</strong> 
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      </div>
+<div class="col-12">
+      <div class="alert alert-secondary alert-dismissible fade show d-none" role="alert" id="alert-secondary" >
+        <strong>Edición Exitosa !</strong> 
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <div class="alert alert-danger alert-dismissible fade show d-none" role="alert" id="alert-success"  >
+        <strong>Error !</strong> Detalle del Error
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+<!--       <div class="alert alert-success" role="alert" >
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <strong>Success!</strong> You have been signed in successfully!
+      </div>
+
+ -->
+      <div class="alert alert-danger alert-dismissible fade show d-none" role="alert" id="alert-danger"  >
+        <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+
+      <div class="alert alert-warning alert-dismissible fade show d-none" role="alert" id="alert-warning"  >
+        <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+
+
+      <div class="alert alert-info alert-dismissible fade show d-none" role="alert" id="alert-info">
+        <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+
+      <div class="alert alert-light alert-dismissible fade show d-none" role="alert" id="alert-light">
+        <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+
+      <div class="alert alert-dark alert-dismissible fade show d-none" role="alert" id="alert-dark">
+        <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    </div>
+
+</div>
+<br>
+<br>
+<br>
+<br>
+    <span class="display-3">Botones</span>
+    <div class="row">
+      <div class="col-12 col-sm-1">
+        <button type="button" class="btn btn-primary" id="button-alert-primary">Primary</button>
+      </div>
+
+      
+      <div class="col-12 col-sm-1">
+        <button type="button" class="btn btn-success" id="button-alert-success">Success</button>
+      </div>
+      
+      <div class="col-12 col-sm-1">
+        <button type="button" class="btn btn-danger" id="button-alert-danger">Danger</button>
+      </div>
+      
+      <div class="col-12 col-sm-1">
+        <button type="button" class="btn btn-dark" id="button-alert-dark">Dark</button>
+      </div>
+
+      <div class="col-12 col-sm-1">
+        <button type="button" class="btn btn-warning" id="button-alert-warning">Warning</button>
+      </div>
+
+      <div class="col-12 col-sm-1">
+        <button type="button" class="btn btn-info" id="button-alert-info">Info</button>
+      </div>
+
+      <div class="col-12 col-sm-1 mr-4">
+        <button type="button" class="btn btn-secondary" id="button-alert-secondary">Secondary</button>
+      </div>
+
+      <div class="col-12 col-sm-1">
+        <button type="button" class="btn btn-light" id="button-alert-light">Light</button>
+      </div>
+
+
+
+      <div class="col-12 col-sm-1">
+        <button type="button" class="btn btn-link" id="button-alert-link">Link</button>
+      </div>
+
+
+
+
+    </div>
+  </div>
+
+
+  <!-- BOOTSTRAP 4 -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- GOOGLE MAP API -->
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOXtlifq_ntnS1Sk-bdzwn0ILpAwmzXU4&callback=initMap" async defer></script> -->
+  <script>
+    $("#button-alert-primary").click(function(){
+      $("#alert-primary").removeClass("d-none");
+    })
+
+    $("#button-alert-secondary").click(function(){
+      $("#alert-secondary").removeClass("d-none");
+    })
+
+    $("#button-alert-success").click(function(){
+      $("#alert-success").removeClass("d-none");
+    })
+
+    $("#button-alert-danger").click(function(){
+      $("#alert-danger").removeClass("d-none");
+    })
+
+    $("#button-alert-warning").click(function(){
+      $("#alert-warning").removeClass("d-none");
+    })
+
+    $("#button-alert-info").click(function(){
+      $("#alert-info").removeClass("d-none");
+    })
+
+    $("#button-alert-light").click(function(){
+      $("#alert-light").removeClass("d-none");
+    })
+
+    $("#button-alert-dark").click(function(){
+      $("#alert-dark").removeClass("d-none");
+    })
+
+    $("#button-alert-link").click(function(){
+      $("#alert-primary").removeClass("d-none");
+    })
+
+
+// window.setTimeout(function() {
+//     $(".alert").fadeTo(500, 0).slideUp(500, function(){
+//         $(this).remove(); 
+//     });
+// }, 40);
+
+
+
+
+    $("#button-alert-primary").click(function(){
+
+      setTimeout(function(){$("#alert-primary").hide();}, 5000);
+
+    })
+  
+
+
+
+  </script>
+
+
+</body>
+
+</html>

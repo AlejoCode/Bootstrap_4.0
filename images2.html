@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <style>
+  .image {
+    background: #f2f2f2;
+    border: 1px solid #424242;
+  }
+  .roundimage {
+/*    background: #f2f2f2;
+border: 1px solid #424242;*/
+margin-top: 20px;
+}
+
+</style>
+<title>Images II</title>
+</head>
+<body>
+
+  <div class="container-fluid">
+    <div class="row no-gutters">
+      <div class="col-12">
+        <hr>
+        <h1>How to Use Images With Cool Bootstrap Features </h1>
+        <hr>
+        <h2>Use Random images with the link <code>"http://lorempixel.com/200/200/"</code></h2>
+        <h3>Specifying the pixel Range in here"/200/200"</h3>
+        <img src="http://lorempixel.com/200/200/" alt="">   
+        
+      </div>
+      <div class="col-12 roundimage">
+       <hr>
+       <h3>Image with the rounded corners using the class <pre><code>"rounded"</code></pre> </h3>
+       <img class="img-fluid rounded" src="http://lorempixel.com/400/400/" alt="">
+
+     </div>
+     <div class="col-12 roundimage">
+       <hr>
+       <h3>Image with Styled corners using the class <pre><code>"img-thumbnail"</code></pre> </h3>
+       <img class="img-fluid img-thumbnail" src="http://lorempixel.com/400/400/" alt="">
+     </div>
+   </div>
+
+   <div class="row">
+     <div class="col-12">
+       <hr>
+       <h3>Image with customized caption using the tags <pre><code>&lt;figure&gt;</code></pre><pre><code>&lt;figcaption&gt;</code></pre></h3>
+       <figure class="figure">
+         <img class="img-fluid rounded" src="http://lorempixel.com/400/400/" alt="">
+         <figcaption>
+          <p class="text-center">"This is the customized caption for the image"</p>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
