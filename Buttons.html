@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+  <title>Buttons !</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="col-12">
+      <h2>Normal Buttons</h2>
+      <hr>
+      <div class="row ml-2">
+        <div class="col-12">
+          <button type="button" class="btn btn-primary pr-3 mr-3 pl-3 pt-1 pb-1">Primary</button>
+          <button type="button" class="btn btn-secundary mt-3 pr-3 mr-3 pl-3 pt-1 pb-1">Secundary</button>
+          <button type="button" class="btn btn-success  pr-3 mr-3 pl-3 pt-1 pb-1">Success</button>
+          <button type="button" class="btn btn-info mt-3 pr-3 mr-3 pl-3 pt-1 pb-1">Info</button>
+          <button type="button" class="btn btn-warning  pr-3 mr-3 pl-3 pt-1 pb-1">Warning</button>
+          <button type="button" class="btn btn-danger mt-3 pr-3 mr-3 pl-3 pt-1 pb-1">Danger</button>
+          <button type="button" class="btn btn-light  pr-3 mr-3 pl-3 pt-1 pb-1">Light</button>
+          <button type="button" class="btn btn-dark mt-3  mr-3pr-3 mr-3 pl-3 pt-1 pb-1">Dark</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 mt-3">
+      <h2>Buttons Links whit Outlines</h2>
+      <hr>
+      <div class="row ml-2">
+        <div class="col-12">
+          <button type="button" onclick="newDoc()" class="btn btn-outline-primary btn-link mt-1 mr-3 ">Link</button>
+          <button type="button" onclick="newDoc()" class="btn btn-outline-primary btn-link mt-3 mr-3 ">Link</button>
+          <button type="button" onclick="newDoc()" class="btn btn-outline-success btn-link mt-1 text-success mr-3 ">Link</button>
+          <button type="button" onclick="newDoc()" class="btn btn-outline-info btn-link mt-3 text-info mr-3 ">Link</button>
+          <button type="button" onclick="newDoc()" class="btn btn-outline-secondary btn-link mt-5 text-secondary mr-3 ">Link</button>
+          <button type="button" onclick="newDoc()" class="btn btn-outline-warning btn-link mt-1 text-warning mr-3 ">Link</button>
+          <button type="button" onclick="newDoc()" class="btn btn-outline-danger btn-link mt-3 text-danger mr-3 ">Link</button>
+          <button type="button" onclick="newDoc()" class="btn btn-outline-warning btn-link mt-1 text-dark mr-3 ">Link</button>
+          <button type="button" onclick="newDoc()" class="btn btn-outline-dark btn-link mt-4 text-dark mr-3 ">Link</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 mt-3">
+      <h2>Using different tags as buttons</h2>
+      <hr>
+      <div class="row ml-2">
+        <div class="col-12">
+          <a href="index.html" class="btn btn-outline-primary mt-2 mr-1">Link</a>
+          <a href="index.html" class="btn btn-outline-primary btn-link mt-5 mr-4">Link</a>
+          <button class="btn btn-warning mt-1 mr-2">Button</button>
+          <input class="btn btn-dark mt-4 mr-1" type="button" value="Button">
+          <input class="btn btn-info mt-5 mr-5" type="Submit" value="Submit">
+        </div>
+      </div>
+    </div>
+    <div class="col-12 mt-3">
+      <h2>Big Buttons</h2>
+      <hr>
+      <div class="row ml-2">
+        <div class="col-12">
+          <button class="btn btn-warning btn-lg mt-1 mr-5">btn-lg</button>
+          <button class="btn btn-secondary btn-lg mt-3 mr-2">btn-lg</button>
+          <button class="btn btn-danger btn-lg mt-5 mr-4">btn-lg</button>
+          <button class="btn btn-success btn-lg mt-3 mr-1">btn-lg</button>
+          <button class="btn btn-info btn-lg mt-1 mr-5">btn-lg</button>
+          <button class="btn btn-dark btn-lg mt-3 mr-2">btn-lg</button>
+          <button class="btn btn-light btn-lg mt-5 mr-4">btn-lg</button>
+          <button class="btn btn-primary btn-lg mt-3 mr-5">btn-lg</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 mt-3">
+      <h2>Small Buttons</h2>
+      <hr>
+      <div class="row ml-2">
+        <div class="col-12">
+          <button class="btn btn-primary btn-sm mt-1 mr-5">btn-sm</button>
+          <button class="btn btn-secondary btn-sm mt-3 mr-2">btn-sm</button>
+          <button class="btn btn-danger btn-sm mt-5 mr-4">btn-sm</button>
+          <button class="btn btn-success btn-sm mt-3 mr-1">btn-sm</button>
+          <button class="btn btn-info btn-sm mt-1 mr-5">btn-sm</button>
+          <button class="btn btn-dark btn-sm mt-3 mr-2">btn-sm</button>
+          <button class="btn btn-light btn-sm mt-5 mr-4">btn-sm</button>
+          <button class="btn btn-warning btn-sm mt-3 mr-5">btn-sm</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 mt-3">
+      <h2>Block Buttons</h2>
+      <hr>
+      <div class="row ml-2">
+        <div class="col-12">
+          <button class="btn btn-info btn-block mt-1 mr-5">btn-sm</button>
+          <button class="btn btn-warning btn-block mt-3 mr-2">btn-sm</button>
+          <button class="btn btn-danger btn-block mt-3 mr-4">btn-sm</button>
+          <button class="btn btn-success btn-block mt-3 mr-1">btn-sm</button>
+          <button class="btn btn-primary btn-block mt-1 mr-5">btn-sm</button>
+          <button class="btn btn-dark btn-block mt-3 mr-2">btn-sm</button>
+          <button class="btn btn-light btn-block mt-2 mr-4 text-dark">btn-sm</button>
+          <button class="btn btn-secondary btn-block mt-3 mr-5">btn-sm</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 mt-3">
+      <h2>Disabled Buttons</h2>
+      <hr>
+      <div class="row ml-2">
+        <div class="col-12">
+          <button type="button" class="btn btn-info btn-link mt-1 mr-5" disabled>btn-link</button>
+          <button type="button" class="btn btn-warning btn-sm mt-3 mr-2" disabled="">btn-sm</button>
+          <button type="button" class="btn btn-danger btn-lg mt-3 mr-4" disabled>btn-lg</button>
+          <button type="button" class="btn btn-success btn-link mt-3 mr-1" disabled>btn-link</button>
+          <button type="button" class="btn btn-primary mt-1 mr-5" disabled>btn-primary</button>
+          <button type="button" class="btn btn-dark btn-block mt-3 mr-2" disabled>btn-block</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function newDoc() {
+    window.location.assign("index.html")
+  }
+</script>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

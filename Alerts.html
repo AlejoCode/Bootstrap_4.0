@@ -14,10 +14,9 @@
 
   <div class="container">
     <div class="row">
-      
       <div class="col-12">
        <hr>
-       <h1>How to Display an Alert</h1> 
+       <h1>How to Display an Alert <h2>With the Bootstrap Classes <code>"alert alert-success mt-3"</code> </h2></h1> 
        <hr>
        <h4>Simple Alert :</h4>
        <div class="alert alert-success mt-3">
@@ -33,7 +32,7 @@
   </div>
   <div class="col-12">
    <hr>
-   <h4> Alert with <code>&lt;strong&gt;</code> tag and <code>&lt;a&gt;</code> tag ; for a link with the Bootstrap Classes <code>"alert alert-success mt-3"</code> </  :</h4>
+   <h4> Alert with <code>&lt;strong&gt;</code> tag and <code>&lt;a&gt;</code> tag for a link :</h4>
    <div class="alert alert-success mt-3">
     <strong>Alert: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, nesciunt. <a href="" class="alert-link">Click in here</a>
   </div>
@@ -41,11 +40,54 @@
 </div>
 <div class="row">
   <div class="col-12">
+    <hr>  
+    <h4> Types of Alerts :</h4>
     <div class="alert alert-success mt-3">
       <strong>Success: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, nesciunt. <a href="" class="alert-link">Click in here</a>
     </div>
+    <div class="alert alert-primary mt-3">
+      <strong>Primary: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, nesciunt. <a href="" class="alert-link">Click in here</a>
+    </div>
+    <div class="alert alert-secondary mt-3">
+      <strong>Secondary: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, nesciunt. <a href="" class="alert-link">Click in here</a>
+    </div>
+    <div class="alert alert-danger mt-3">
+      <strong>Danger: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, nesciunt. <a href="" class="alert-link">Click in here</a>
+    </div>
+    <div class="alert alert-warning mt-3">
+      <strong>Warning: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, nesciunt. <a href="" class="alert-link">Click in here</a>
+    </div>
+    <div class="alert alert-info mt-3">
+      <strong>Info: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, nesciunt. <a href="" class="alert-link">Click in here</a>
+    </div>
+    <div class="alert alert-light mt-3">
+      <strong>Light: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, nesciunt. <a href="" class="alert-link">Click in here</a>
+    </div>
+    <div class="alert alert-dark mt-3">
+      <strong>Dark: </strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, nesciunt. <a href="" class="alert-link">Click in here</a>
+    </div>
   </div>
 </div>
+<div class="row">
+  <div class="col-12">
+    <hr>  
+    <h4>Alert with a Whole Paragraph</h4>
+    <div class="alert alert-info mt-3">
+      <h2>Header</h2>
+      <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat earum architecto non, ratione natus expedita, voluptatibus dolores consectetur distinctio. Delectus cum, commodi magnam est quam adipisci totam sed, culpa porro a nam non ducimus nulla! Perspiciatis corrupti quo possimus odit, illum, assumenda, atque amet incidunt quis aliquam architecto molestias quam.</p>
+    </div>
+  </div>
+  <div class="col-12">
+    <hr>  
+<h4>Alert with a Custom Close Button with the id: <code>id="alert"</code> </h4>
+    <div class="alert alert-info mt-3" id="CustomAlert">
+      Lorem ipsum dolor sit amet.
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span area-hidden="true">&times;</span>        
+      </button>
+      </div>
+    </div>
+  </div>
 </div>
 
 <script src="js/jquery-3.3.1.min.js"></script>
